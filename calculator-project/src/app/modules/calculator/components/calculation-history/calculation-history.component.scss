@@ -1,0 +1,18 @@
+.history-wrapper {
+  margin: 20px;
+
+  .title {
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+
+  table {
+    width: 700px;
+
+
+    th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+      color: black;
+      background-color: bisque;
+    }
+  }
+}

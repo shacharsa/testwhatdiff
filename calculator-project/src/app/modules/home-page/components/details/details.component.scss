@@ -1,0 +1,51 @@
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(to buttom left, lightcoral,lightskyblue);
+  //background: radial-gradient(to buttom left, rgba(221,174,238,1) 50%, rgba(148,204,233,1) 50%);
+  background: linear-gradient(45deg, rgba(221,160,122,1) 50%, rgba(242,190,225,1) 50%);
+  background: linear-gradient(45deg, #E18964 50%, #C75252 50%);
+
+  .main-details {
+    font-family: fantasy;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+
+
+    .personal-info {
+      font-size: 30px;
+      margin-bottom: 50px;
+
+      .name {
+        color: white;
+        margin: 10px;
+      }
+
+      .email {
+        color: white;
+      }
+    }
+
+    .main-button {
+      border: 2px solid black;
+      border-radius: 25px;
+      background-color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      border-color: coral;
+      ;
+      color: coral;
+
+
+      &:hover {
+        background-color: coral;
+        color: white;
+      }
+    }
+  }
+}

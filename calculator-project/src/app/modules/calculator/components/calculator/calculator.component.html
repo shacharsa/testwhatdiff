@@ -1,0 +1,9 @@
+<div class="calc-body">
+  <input class="screen" [(ngModel)]="screenInput" />
+  <div class="keyboard">
+    <button mat-raised-button *ngFor="let key of keyboardKeys" class="main-button" (click)="digitClicked(key)">{{key}}</button>
+    <button mat-raised-button class="main-button" (click)="equalsClicked()">=</button>
+    <button mat-raised-button class="main-button" (click)="resetClicked()">C</button>
+  </div>
+</div>
+
